@@ -1,6 +1,12 @@
 package shape;
 
 public abstract class Forme {
+
+
     public abstract double calculerAire();
-    public abstract void afficherType();
+
+
+    public void afficherType() {
+        System.out.println("Forme");
+    }
 }
